@@ -1,0 +1,33 @@
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register div {
+  width: 50%;
+  margin-top: 30px;
+}
+.register form input {
+  display: block;
+  padding-left: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+}
+.register form input:focus {
+  outline: 2px solid blue;
+  border: none;
+}
+@media screen and (max-width: 576px) {
+  .register div {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .register div {
+      width: 80%;
+    }
+  }
